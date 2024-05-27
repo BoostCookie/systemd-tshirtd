@@ -1,0 +1,14 @@
+stages:
+  - build
+
+typst-compile:
+  stage: build
+  image: ghcr.io/typst/typst:latest
+  script:
+    - typst compile systemd-tshirtd-transparent.typ
+    - typst compile systemd-tshirtd-black.typ
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - ./systemd-tshirtd-transparent.pdf
+      - ./systemd-tshirtd-black.pdf
