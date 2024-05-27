@@ -5,6 +5,7 @@ typst-compile:
   stage: build
   image: ghcr.io/typst/typst:latest
   script:
+    - apk add font-roboto
     - typst compile systemd-tshirtd-transparent.typ
     - typst compile systemd-tshirtd-black.typ
   artifacts:
