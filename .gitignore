@@ -1,4 +1,7 @@
 /*.pdf
 /*.svg
 !/systemd-dark-logo.svg
+!/systemd-dark-logo-braceopen.svg
+!/systemd-dark-logo-braceclose.svg
+!/systemd-dark-logo-inner.svg
 !/preview/
