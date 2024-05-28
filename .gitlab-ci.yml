@@ -8,8 +8,12 @@ typst-compile:
     - apk add font-roboto
     - typst compile systemd-tshirtd-transparent.typ
     - typst compile systemd-tshirtd-black.typ
+    - typst compile -f svg systemd-tshirtd-transparent.typ
+    - typst compile -f svg systemd-tshirtd-black.typ
   artifacts:
     expire_in: 1 week
     paths:
       - ./systemd-tshirtd-transparent.pdf
       - ./systemd-tshirtd-black.pdf
+      - ./systemd-tshirtd-transparent.svg
+      - ./systemd-tshirtd-black.svg
