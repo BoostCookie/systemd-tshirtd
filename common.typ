@@ -1,4 +1,4 @@
-//#set page(fill: rgb(0%, 0%, 0%, 100%))
+//#set page(fill: rgb("#201a26"))
 #set page(width: 300mm, height: auto, margin: (top: 0em, right: 0em, bottom: 2em, left: 0em))
 #set align(center)
 #set text(font: "Roboto", fill: white, weight: "bold")

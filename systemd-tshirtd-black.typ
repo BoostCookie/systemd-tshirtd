@@ -1,2 +1,2 @@
-#set page(fill: rgb(0%, 0%, 0%, 100%))
+#set page(fill: rgb("#201a26"))
 #include "common.typ"
