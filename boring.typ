@@ -5,7 +5,7 @@
 #set text(font: "Roboto", fill: white, weight: "bold")
 
 #let logo_height = 9.6em
-#align(center, image("./systemd-dark-logo.svg", height: logo_height))
-#v(-5em)
+#image("./systemd-dark-logo.svg", height: logo_height)
+#v(-4.5em)
 #text(size: 9em)[systemd-tshirtd]
 
