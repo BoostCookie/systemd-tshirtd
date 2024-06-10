@@ -1,5 +1,7 @@
 all:
-	typst compile -f svg ./systemd-tshirtd-transparent.typ
-	typst compile -f svg ./systemd-tshirtd-black.typ
-	typst compile -f svg ./systemd-tshirtd-black.typ ./preview/systemd-tshirtd-black.svg
-	typst compile -f svg ./boring.typ ./boring.svg
+	#!/bin/sh
+	for file in ./tshirtd.*.typ; do
+		typst compile -f svg $file
+	done
+	cp ./tshirtd.newlogo.black.svg preview
+	cp ./tshirtd.origlogo.black.svg preview

@@ -1,11 +1,12 @@
 # systemd T-Shirt Logo
-![preview of the logo](./preview/systemd-tshirtd-black.svg)
+![preview of the print with new logo](./preview/tshirtd.newlogo.black.svg)
+![preview of the print with original logo](./preview/tshirtd.origlogo.black.svg)
 
-This is a joke systemd logo meant to be printed onto a black t-shirt.
+These are joke systemd logos meant to be printed onto a black t-shirt.
 The original systemd logo was taken from [https://brand.systemd.io/](https://brand.systemd.io/).
 
 Here are the files to download.
-|         | transparent | black |
-| ------- | ----------- | ----- |
-| **svg** | [click](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/systemd-tshirtd-transparent.svg?job=typst-compile) | [click](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/systemd-tshirtd-black.svg?job=typst-compile) |
-| **pdf** | [click](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/systemd-tshirtd-transparent.pdf?job=typst-compile) | [click](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/systemd-tshirtd-black.pdf?job=typst-compile) |
+|         | new logo | original logo |
+| ------- | -------- | ------------- |
+| **svg** | [transparent](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/tshirtd.newlogo.transparent.svg?job=typst-compile), [black](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/tshirtd.newlogo.black.svg?job=typst-compile) | [transparent](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/tshirtd.origlogo.transparent.svg?job=typst-compile), [black](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/tshirtd.origlogo.black.svg?job=typst-compile) |
+| **pdf** | [transparent](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/tshirtd.newlogo.transparent.pdf?job=typst-compile), [black](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/tshirtd.newlogo.black.pdf?job=typst-compile) | [transparent](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/tshirtd.origlogo.transparent.pdf?job=typst-compile), [black](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/tshirtd.origlogo.black.pdf?job=typst-compile) |

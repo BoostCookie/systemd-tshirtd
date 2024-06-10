@@ -1,5 +1,5 @@
 //#set page(fill: rgb("#201a26"))
-#set page(width: 300mm, height: auto, margin: (top: 0em, right: 0em, bottom: 2em, left: 0em))
+#set page(width: 256mm, height: auto, margin: (top: 0em, right: 0em, bottom: 2em, left: 0em))
 #set align(center)
 #set text(font: "Roboto", fill: white, weight: "bold")
 
@@ -14,7 +14,7 @@
   image("./systemd-dark-logo-inner.svg", height: logo_height),
   rotate(brace_angle, image("./systemd-dark-logo-braceclose.svg", height: logo_height)),
   "",
-  grid.cell[#v(-1.57em)#box(rect(fill: white, width: line_width, height: 50%))#h(22em)#box(rect(fill: white, width: line_width, height: 50%))],
+  grid.cell[#v(-1.57em)#box(rect(fill: white, width: line_width, height: 50%))#h(17.75em)#box(rect(fill: white, width: line_width, height: 50%))],
   "",
 )
 #v(-12em)
