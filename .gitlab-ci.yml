@@ -10,6 +10,7 @@ typst-compile:
       for file in ./tshirtd.*.typ; do
         typst compile -f svg $file
         typst compile -f pdf $file
+      done
   artifacts:
     expire_in: 1 week
     paths:
