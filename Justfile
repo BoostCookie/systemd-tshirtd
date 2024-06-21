@@ -1,7 +1,8 @@
 all:
 	#!/bin/sh
-	for file in ./tshirtd.*.typ; do
-		typst compile -f svg $file
+	mkdir -p ./build
+	for file in ./src/tshirtd.*.typ; do
+		typst compile -f svg $file ./build/$(basename -s .typ $file).svg
 	done
-	cp ./tshirtd.newlogo.black.svg preview
-	cp ./tshirtd.origlogo.black.svg preview
+	cp ./build/tshirtd.newlogo.black.svg preview
+	cp ./build/tshirtd.origlogo.black.svg preview

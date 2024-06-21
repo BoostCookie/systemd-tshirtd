@@ -7,12 +7,12 @@ typst-compile:
   script:
     - apk add font-roboto
     - |+
-      for file in ./tshirtd.*.typ; do
-        typst compile -f svg $file
-        typst compile -f pdf $file
+      for file in ./src/tshirtd.*.typ; do
+		typst compile -f svg $file $(basename -s .typ $file).svg
+		typst compile -f pdf $file $(basename -s .typ $file).pdf
       done
   artifacts:
     expire_in: 1 week
     paths:
-      - ./tshirtd.*.svg
-      - ./tshirtd.*.pdf
+      - ./build/tshirtd.*.svg
+      - ./build/tshirtd.*.pdf
