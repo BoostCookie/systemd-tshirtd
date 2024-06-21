@@ -14,5 +14,5 @@ typst-compile:
   artifacts:
     expire_in: 1 week
     paths:
-      - ./build/tshirtd.*.svg
-      - ./build/tshirtd.*.pdf
+      - ./tshirtd.*.svg
+      - ./tshirtd.*.pdf
