@@ -3,9 +3,9 @@
 **⚠️⚠️⚠️ Do not use the images from these previews! ⚠️⚠️⚠️ \
 They have a DARK BACKGROUND, but what you want for a T-shirt is a TRANSPARENT BACKGROUND! \
 Please go to [Files](#files) and download the transparent version you want.**
-### With Original Logo
+### With the Original Logo
 ![preview of the print with original logo](./preview/tshirtd-orig-dark-solid.svg)
-### With A T-shirtdised Logo
+### With a T-shirtdised Logo
 ![preview of the print with new logo](./preview/tshirtd-new-dark-solid.svg)
 
 These are joke systemd logos meant to be printed onto a black t-shirt.
