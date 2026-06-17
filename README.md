@@ -12,7 +12,7 @@ These are joke systemd logos meant to be printed onto a black t-shirt.
 The original systemd logo was taken from [https://brand.systemd.io/](https://brand.systemd.io/).
 
 ## Files
-Here are the [files](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/browse?job=typst-compile) to download.
+Here are the [files](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/browse/build?job=typst-compile) to download.
 |         | original logo | tshirtdised logo |
 | ------- | -------- | ------------- |
 | **svg** | [dark](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/build/tshirtd-orig-dark-transparent.svg?job=typst-compile), [light](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/build/tshirtd-orig-light-transparent.svg?job=typst-compile) | [dark](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/build/tshirtd-new-dark-transparent.svg?job=typst-compile), [light](https://gitlab.com/BoostCookie/systemd-tshirtd/-/jobs/artifacts/main/raw/build/tshirtd-new-light-transparent.svg?job=typst-compile) |
