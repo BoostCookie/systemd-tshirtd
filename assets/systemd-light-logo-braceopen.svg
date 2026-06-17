@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="20"
-   height="52.000004"
+   width="19.99995"
+   height="51.99987"
    version="1.1"
    id="svg3"
    sodipodi:docname="systemd-light-logo-braceopen.svg"
@@ -21,11 +21,11 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="3.8822329"
-     inkscape:cx="39.023934"
-     inkscape:cy="-26.015956"
-     inkscape:window-width="1916"
-     inkscape:window-height="1033"
+     inkscape:zoom="3.8383334"
+     inkscape:cx="60.833693"
+     inkscape:cy="39.730785"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -34,9 +34,14 @@
      transform="matrix(1.33333,0,0,1.33333,-33.33325,-1215.477)"
      id="g3">
     <path
-       id="path2"
+       d="m 25,911.61 v 39 h 15 v -6 h -9 v -27 h 9 v -6 z"
        style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;solid-color:#000000;solid-opacity:1"
-       d="m 25,911.61003 v 39.0001 h 15.000038 v -6.00002 h -9.000023 v -27.00007 h 9.000023 v -6.00001 z"
+       color="#000000"
+       font-weight="400"
+       font-family="sans-serif"
+       overflow="visible"
+       fill="#201a26"
+       id="path2"
        sodipodi:nodetypes="ccccccccc" />
   </g>
 </svg>

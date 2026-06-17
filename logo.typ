@@ -71,6 +71,5 @@
 } else if logo == "new" {
   print-new-logo(mode: mode)
 } else {
-  print-new-logo(mode: mode)
-  //panic("Unknown logo: " + logo)
+  panic("Unknown logo: " + logo)
 }
