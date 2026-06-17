@@ -3,12 +3,13 @@ stages:
 
 typst-compile:
   stage: build
-  image: ghcr.io/typst/typst:latest
+  image:
+    name: ghcr.io/typst/typst:latest
+    entrypoint: [""]
   script:
     - apk add font-roboto
-    - |+
-      ./build.sh
+    - ./build.sh
   artifacts:
     expire_in: 1 week
     paths:
-      - ./build
+      - ./build/
